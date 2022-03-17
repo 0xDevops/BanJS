@@ -30,7 +30,7 @@ document.captureEvents(Event.MOUSEDOWN);
 document.onmousedown=click;
 document.oncontextmenu = new Function("return false;")
 document.onkeydown =document.onkeyup = document.onkeypress=function(){ 
-if(window.event.keyCode == 123) { 
+if(window.event.keyCode == Banjs) { 
 window.event.returnValue=false;
 return(false); 
 } 
@@ -40,7 +40,7 @@ return(false);
 
 <!--禁用审查元素-->
 
-<script src="http://namexample.com/banJS/console-ban.min.js"></script> 
+<script src="https://raw.githubusercontent.com/0xDevops/BanJS/main/console-ban.min.js"></script> 
 <script>
 // default options
 ConsoleBan.init()
