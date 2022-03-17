@@ -10,6 +10,7 @@ onselectstart="return false" //禁止右键复制
 #### 2.引入
 
 ```css
+<!--禁用F12-->
 <script>
 function click(e) {
 if (document.all) {
@@ -39,13 +40,13 @@ return(false);
 
 <!--禁用审查元素-->
 
-<script src="http://namexample.com/banJS/console-ban.min.js"></script>
+<script src="http://namexample.com/banJS/console-ban.min.js"></script> 
 <script>
 // default options
 ConsoleBan.init()
 // custom options
 ConsoleBan.init({
-redirect: '/404.html'
+redirect: '/404.html' //审查元素跳转404.html
 })
 </script>
 ```
