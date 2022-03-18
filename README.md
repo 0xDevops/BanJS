@@ -1,18 +1,18 @@
 # BanJS
 
-## 一个不常用，有点卵用的项目
+## An infrequent, somewhat useful project
 
 ### 前端引用
 
-#### 1.body加入 <body 加入到这儿>
+#### 1.body join <body ```java join here ```>
 ```css
 onselectstart="return false" //禁止右键复制
  ```
 
-#### 2.引入
+#### 2.Introduce under the inedex file
 
 ```css
-<!--禁用F12及鼠标键盘复制剪切功能-->
+<!--禁用F12及鼠标键盘复制全选剪切功能-->
 <script>
 function click(e) {
 if (document.all) {
@@ -53,4 +53,4 @@ redirect: '/404.html' //审查元素跳转404.html
 </script>
 ```
 
-#### 欢迎Start
+#### Welcome Start
