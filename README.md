@@ -12,7 +12,7 @@ onselectstart="return false" //禁止右键复制
 #### 2.引入
 
 ```css
-<!--禁用F12及鼠标复制和右键-->
+<!--禁用F12及鼠标键盘复制剪切功能-->
 <script>
 function click(e) {
 if (document.all) {
